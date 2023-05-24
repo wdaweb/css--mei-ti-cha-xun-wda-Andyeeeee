@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widli=device-widli, initial-scale=1.0">
+    <link rel="icon" href="PDF1.ico" type="image/x-icon">
+    <title>我的第一個網頁.pdf</title>
+    <style>
+        * {
+            transition: 1.7s;
+        }
+
+
+
+        html,
+        body {
+            background-color: rgb(97, 97, 97);
+            /*230*/
+            font-weight: 540;
+            height: calc(100% - 9px);
+            transition: 1s;
+
+
+        }
+
+        .box {
+            width: 90%;
+            padding: 40px;
+            background-color: white;
+
+            margin: auto;
+        }
+
+        .img {
+            text-align: center;
+        }
+
+        img {
+            margin: auto;
+            width: 160px;
+        }
+
+        .img1 {
+            /* margin: auto; */
+            width: 300px;
+            /* filter: drop-shadow(0px 0px 20px rgb(255, 54, 54, 1)); */
+            z-index: 2;
+            border-radius: 50%;
+            outline: 20px solid #fff;
+        }
+
+        a {
+            color: blue;
+            font-weight: 900;
+        }
+
+
+
+        .border-up {
+            display: none;
+        }
+
+
+        @media(min-width:576px) {
+
+
+            body {
+                /* display: none;
+                margin: auto; */
+
+                position: relative;
+                background-color: rgb(255, 255, 255);
+                transition: 1s;
+            }
+
+
+
+            hr {
+                display: none;
+            }
+
+
+
+            p {
+                display: none;
+            }
+
+
+            .img1 {
+                /* margin: auto; */
+                width: 300px;
+                /* filter: drop-shadow(0px 0px 20px rgb(255, 54, 54, 1)); */
+                z-index: 2;
+                border-radius: 50%;
+                outline: 20px solid #fff;
+            }
+
+            #a1 {
+                width: 300px;
+                height: 300px;
+                position: absolute;
+                top: calc(50% - 190px);
+                left: calc(50% - 139px);
+                z-index: 1;
+                /* transition: 1s; */
+
+            }
+
+            .border-up {
+                /* display: block; */
+                position: absolute;
+                width: 200px;
+                height: 201px;
+                border-bottom: 2px #333 solid;
+                border-right: 2px #333 solid;
+                transform: rotate(138deg) skew(61deg);
+                top: -152px;
+                left: calc(102% - -54px);
+                /* background-color: blueviolet; */
+                /* background-color: blueviolet; */
+            }
+
+            #a2 {
+                position: absolute;
+                bottom: calc(50% - -117px);
+                right: calc(50% - -513px);
+            }
+
+            #a3 {
+                position: absolute;
+                bottom: calc(50% - -188px);
+                right: calc(50% - -112px);
+            }
+
+            #a4 {
+                position: absolute;
+                bottom: calc(50% - 230px);
+                right: calc(50% - -446px);
+            }
+
+            #a5 {
+                position: absolute;
+                bottom: calc(50% - 410px);
+                right: calc(50% - -245px);
+            }
+
+            #a6 {
+                position: absolute;
+                bottom: calc(50% - 321px);
+                right: calc(50% - 490px);
+            }
+
+            #a7 {
+                position: absolute;
+                bottom: calc(50% - -216px);
+                right: calc(50% - 347px);
+            }
+
+            #a8 {
+                position: absolute;
+                bottom: calc(50% - -84px);
+                right: calc(50% - 637px);
+            }
+
+            #p2 {
+                position: absolute;
+                bottom: calc(50% - -88px);
+                right: calc(50% - -306px);
+                width: 1px;
+                height: 127px;
+                display: block;
+                font-size: 0px;
+                border: 1px solid rgb(188 188 188);
+                transform: skew(73deg);
+            }
+
+            #p3 {
+                position: absolute;
+                bottom: calc(50% - -147px);
+                right: calc(50% - -89px);
+                width: 1px;
+                height: 121px;
+                display: block;
+                font-size: 0px;
+                border: 1px solid rgb(188 188 188);
+                transform: skew(38deg);
+            }
+
+            #p4 {
+                position: absolute;
+                bottom: calc(50% - 74px);
+                right: calc(50% - -260px);
+                width: 1px;
+                height: 103px;
+                display: block;
+                font-size: 0px;
+                border: 1px solid rgb(188 188 188);
+                transform: skew(107deg);
+            }
+
+            #p5 {
+                position: absolute;
+                bottom: calc(50% - 141px);
+                right: calc(50% - -171px);
+                width: 1px;
+                height: 123px;
+                display: block;
+                font-size: 0px;
+                border: 1px solid rgb(188 188 188);
+                transform: skew(122deg);
+            }
+
+            #p6 {
+                position: absolute;
+                bottom: calc(50% - 100px);
+                right: calc(50% - 196px);
+                width: 1px;
+                height: 99px;
+                display: block;
+                font-size: 0px;
+                border: 1px solid rgb(188 188 188);
+                transform: skew(63deg);
+            }
+
+            #p8 {
+                position: absolute;
+                bottom: calc(50% - -88px);
+                right: calc(50% - 278px);
+                width: 1px;
+                height: 94px;
+                display: block;
+                font-size: 0px;
+                border: 1px solid rgb(188 188 188);
+                transform: skew(105deg);
+            }
+
+            #p7 {
+                position: absolute;
+                bottom: calc(50% - -146px);
+                right: calc(50% - 146px);
+                width: 1px;
+                height: 157px;
+                display: block;
+                font-size: 0px;
+                border: 1px solid rgb(188 188 188);
+                transform: skew(134deg);
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- a4大小 邊距 連結 -->
+    <div class="box">
+        <div class="img" id="a1">
+
+            <img src="./img/wda.png" alt="" class="img1">
+            <h2>泰山職訓局</h2>
+            <div style="display: flex;flex-wrap: wrap;justify-content: space-evenly">
+                <div>轉職網頁開發人員</div>
+                <div>掌握就業必備職能</div>
+            </div>
+            <div style="display: flex;flex-wrap: wrap;justify-content: space-evenly">
+                <div>由淺入深技術學習</div>
+                <div>強化職場的競爭力</div>
+            </div>
+            <div class="border-up"></div>
+
+        </div>
+
+
+
+        <hr>
+
+
+        <div class="img" id="a2">
+            <img src="html.png" id="HTMl" />
+            <h2>HTML</h2>
+        </div>
+
+
+
+
+        <p id="p2">超文本標記語言（英語：HyperText Markup Language，簡稱：HTML）是一種用於建立網頁的標準標記語言。
+            HTML 是一種基礎技術，常與 CSS、JavaScript 一起被眾多網站用於設計賞心悅目的網頁、網頁應用程式以及行
+            動應用程式的使用者介面。網頁瀏覽器可以讀取 HTML 檔案，並將其彩現成視覺化網頁。HTML 描述了一個網站
+            的結構語意隨著線索的呈現，使之成為一種標記語言而非程式語言。
+        </p>
+
+        <hr>
+
+
+
+        <div class="img" id="a3">
+            <img src="css.png" id="CSS" />
+            <h2>CSS</h2>
+        </div>
+
+        <p id="p3">層疊樣式表（英語：Cascading Style Sheets，簡寫CSS），又稱串樣式列表、級聯樣式表、串接樣式表、階層式樣
+            式表，一種用來為結構化文件（如 HTML 文件或 XML 應用）添加樣式（字型、間距和顏色等）的電腦語言，由
+            W3C 定義和維護。目前最新版本是 CSS2.1，為 W3C 的推薦標準。CSS3 現在已被大部分現代瀏覽器支援，而下
+            一版的 CSS4 仍在開發中。
+        </p>
+
+        <hr>
+
+        <div class="img" id="a4">
+            <img src="./img/js.png" id="CSS" />
+            <h2>JavaScript</h2>
+        </div>
+
+        <p id="p4">
+            JavaScript是一門基於原型和頭等函式的多範式進階直譯程式語言，它支援物件導向程式設計、指令式編程和函式語言程式設計。它提供方法來操控文字、陣列、日期以及正規表示式等。不支援I/O，比如網路、儲存和圖形等，但這些都可以由它的宿主環境提供支援。它由ECMA透過ECMAScript實作語言的標準化。
+        </p>
+
+
+        <hr>
+
+        <div class="img" id="a5">
+            <img src="./img/jq.png" id="CSS" />
+            <h2>JQuery</h2>
+        </div>
+
+        <p id="p5">jQuery是一套跨瀏覽器的JavaScript函式庫，用於簡化HTML與JavaScript之間的操作。約翰·雷西格在2006年1月的BarCamp NYC上釋出了第一個版本。目前由Dave
+            Methvin領導的團隊進行開發。
+        </p>
+
+
+        <hr>
+
+
+
+        <div class="img" id="a6">
+            <img src="./img/vue.png" id="CSS" />
+            <h2>Vue.js</h2>
+        </div>
+
+        <p id="p6">Vue.js是一個用於建立使用者介面的開源MVVM前端JavaScript框架，也是一個建立單頁應用的Web應用框架。Vue.js由尤雨溪建立，由他和其他活躍的核心團隊成員維護。
+            2016年一項針對JavaScript框架的調查表明，Vue有著89%的開發者滿意度。
+        </p>
+
+        <hr>
+
+        <div class="img" id="a8">
+            <img src="./img/sass.png" id="CSS" />
+            <h2>Sass</h2>
+        </div>
+
+
+
+
+        <p id="p8">Sass是一個最初由Hampton Catlin設計並由Natalie Weizenbaum開發的層疊樣式表語言。在開發最初版本之後，Weizenbaum和Chris
+            Eppstein繼續通過SassScript來繼續擴充Sass的功能。SassScript是一個在Sass檔案中使用的小型手稿語言。
+        </p>
+
+        <hr>
+
+        <div class="img" id="a7">
+            <img src="./img/bs.png" id="CSS" />
+            <h2>Bootstrap</h2>
+        </div>
+
+
+        <p id="p7">
+            Bootstrap是一組用於網站和網路應用程式開發的開源前端框架，包括HTML、CSS及JavaScript的框架，提供字體排印、表單、按鈕、導航及其他各種元件及Javascript擴充套件，旨在使動態網頁和Web應用的開發更加容易。
+</body>
+
+</html>
